@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="{{ asset('img/favicon.ico') }}" rel="icon">
+    <link href="{{ asset('img/logopng.png') }}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,9 +41,9 @@
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="/" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="mb-0 text-primary text-uppercase"><i class="fa fa-cut me-3"></i>HairCut</h1>
+            <h1 class="mb-0 text-white text-uppercase"><img src="{{ asset('img/logo_barber_supermario.jpeg') }}" alt="Logo Barbería Super Mario" class="img-fluid" style="max-width: 100px;">BARBER SUPER MARIO</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -53,19 +53,9 @@
                 <a href="/" class="nav-item nav-link">Home</a>
                 <a href="/about" class="nav-item nav-link">About</a>
                 <a href="/service" class="nav-item nav-link">Service</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="/price" class="dropdown-item">Pricing Plan</a>
-                        <a href="/team" class="dropdown-item">Our Barber</a>
-                        <a href="/open" class="dropdown-item">Working Hours</a>
-                        <a href="/testimonial" class="dropdown-item">Testimonial</a>
-                        <a href="/404" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
                 <a href="/contact" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="#" class="btn btn-primary rounded-0 py-3 px-lg-5 d-none d-lg-block">Appointment<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="https://booksy.com/en-us/1316178_barber-super-mario_barber-shop_37983_arlington?do=invite&utm_medium=profile_share_from_profile" target="_blank"  class="btn  btn-primary rounded-0 py-3 px-lg-5  d-lg-block nav-item nav-link text-white">Appointment<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -101,20 +91,14 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-uppercase mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="#">About Us</a>
-                    <a class="btn btn-link" href="#">Contact Us</a>
-                    <a class="btn btn-link" href="#">Our Services</a>
-                    <a class="btn btn-link" href="#">Terms & Condition</a>
-                    <a class="btn btn-link" href="#">Support</a>
+                    <a class="btn btn-link" href="/about">About Me</a>
+                    <a class="btn btn-link" href="/contact">Contact Me</a>
+                    <a class="btn btn-link" href="/service">Service</a>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-uppercase mb-4">Newsletter</h4>
-                    <div class="position-relative mb-4">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
                     <div class="d-flex pt-1 m-n1">
-                        <a class="btn btn-lg-square btn-dark text-primary m-1" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg-square btn-dark text-primary m-1"  target="_blanck" href="https://www.instagram.com/barber_supermario?igsh=MXVjeXUyMWk3bTQ2Zg%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-lg-square btn-dark text-primary m-1" href="#"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-lg-square btn-dark text-primary m-1" href="#"><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-lg-square btn-dark text-primary m-1" href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -126,10 +110,11 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="/">BARBER SUPER MARIO</a>, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        Designed By <a class="border-bottom" href="/">HTML Codex</a> 
+                        and customized by  <a class="border-bottom" href="https://www.linkedin.com/in/yeffersimehuarancca?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Yeffer Sime</a>
                     </div>
                 </div>
             </div>
@@ -139,9 +124,13 @@
 
     
     <!-- Botón flotante de enlace a Buksy -->
-    <a href="javascript:void(0)" style="box-shadow: none;" class="btn btn-lg-square btn-float" onclick="openInNewTab()">
-        <img src="{{ asset('img/booksy.png') }}" alt="booksy Icon">
-    </a>
+    <a href="https://booksy.com/en-us/1316178_barber-super-mario_barber-shop_37983_arlington?do=invite&utm_medium=profile_share_from_profile" 
+   target="_blank" 
+   style="box-shadow: none;" 
+   class="btn btn-lg-square btn-float">
+    <img src="{{ asset('img/booksy.png') }}" alt="booksy Icon">
+</a>
+
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
