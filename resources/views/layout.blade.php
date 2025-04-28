@@ -113,7 +113,7 @@
                         &copy; <a class="border-bottom" href="/">BARBER SUPER MARIO</a>, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                        Designed By <a class="border-bottom" href="/">HTML Codex</a> 
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com/" target="_blank">HTML Codex</a> 
                         and customized by  <a class="border-bottom" href="https://www.linkedin.com/in/yeffersimehuarancca?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Yeffer Sime</a>
                     </div>
                 </div>
